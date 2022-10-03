@@ -15,7 +15,8 @@ a {
     font-family: 'Nunito', sans-serif;
     background: #1d1d1d;
     line-height: 1.5em;
-    scroll-behavior: smooth;;
+    scroll-behavior: smooth;
+    text-decoration: none;
 }
 
 a:link {
