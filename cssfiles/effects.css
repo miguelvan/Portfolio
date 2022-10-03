@@ -1,0 +1,130 @@
+/* FLIPBOX */
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-box-front {
+    padding-top: 50px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.flip-box-back {
+    padding: 70px 20px 50px 20px;
+    background-color: transparent;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+/* ABOUT OPACITY ONCLICK */
+/* EXPERIENCE */
+    /*  design */
+#expone:checked + label > p {
+    opacity: 1;
+    display: block;
+}
+
+#expone {
+    display: none;
+}
+
+#expone:checked + label {
+    color: aqua;
+    border-left: 3px solid #fff;
+}
+
+
+
+/* webdevelopment */
+#exptwo:checked + label > p {
+    opacity: 1;
+    display: block;
+}
+
+#exptwo {
+    display: none;
+}
+
+#exptwo:checked + label {
+    color: aqua;
+    border-left: 3px solid #fff;
+}
+
+
+/* branding */
+#expthree:checked + label > p {
+    opacity: 1;
+    display: block;
+}
+
+#expthree {
+    display: none;
+}
+
+#expthree:checked + label {
+    color: aqua;
+    border-left: 3px solid #fff;
+}
+
+/*  EDUCATIONS */
+/* ELEM AND HS */
+#eduone:checked + label > p {
+    opacity: 1;
+    display: block;
+}
+
+#eduone {
+    display: none;
+}
+
+#eduone:checked + label {
+    color: aqua;
+    border-left: 3px solid #fff;
+}
+
+/*  COLLEGE */
+#edutwo:checked + label > p {
+    opacity: 1;
+    display: block;
+}
+
+#edutwo {
+    display: none;
+}
+
+#edutwo:checked + label {
+    color: aqua;
+    border-left: 3px solid #fff;
+}
+
+/*  CERTIFICATES */
+
+#eduthree:checked + label > p {
+    opacity: 1;
+    display: block;
+}
+
+#eduthree {
+    display: none;
+}
+
+#eduthree:checked + label {
+    color: aqua;
+    border-left: 3px solid #fff;
+}
+
+
+
+/* other page effects */
+

@@ -1,0 +1,497 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    background: #1d1d1d;
+    line-height: 1.5em;
+    scroll-behavior: smooth;
+}
+
+a {
+    color:     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    background: #1d1d1d;
+    line-height: 1.5em;
+    scroll-behavior: smooth;;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    border-bottom: 0.1px double #08fdd8;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+/* FONTS */
+h1 {
+    color: #b9b9b9;
+    font-size: 45px;
+    font-weight: 1000;
+    background: transparent;
+}
+
+h2 {
+    color: #555;
+    font-size: 45px;
+    background: transparent;
+}
+
+h3 {
+    color: #08fdd8;
+    background: transparent;
+}
+
+.h3expedu {
+    color: #ffffff;
+    background: transparent;
+}
+
+.h3works {
+    color: #ffffff;
+    background: transparent;
+}
+
+h4 {
+    color: #08fdd8;
+    font-size: 25px;
+    background: transparent;
+}
+
+.h4apps {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.para1 {
+    color: #ffffff;
+    font-size: 20px;
+    background: transparent;
+    padding: 0px 50% 0px 0px;
+}
+
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: row wrap;
+    padding: 10px 30px 10px 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 4px 9px rgba(0, 0, 0, 0.1);
+}
+
+.vandamlogo {
+    width: 80px;
+    height: 55px;
+}
+
+.divlogo {
+    width: 60%;
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.divnav {
+    width: 30%;
+}
+
+.resume {
+    border: 1px solid #ffffff;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: -5px;
+    padding: 5px;
+}
+
+.botnav{
+    display: none;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+    padding: 100px 15% 350px 15%;
+    position: relative;
+    margin: 50px;
+    width: 100%;
+    background-image: url(../assets/van\ sketch.webp);
+    background-size: 700px 500px;
+    background-repeat: no-repeat;
+    background-position: 600px 50px;
+
+}
+
+.herodets {
+    background: transparent;
+}
+
+.gettoknow {
+    color: #08fdd8;
+    padding: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+    border: 2px solid #08fdd8;
+}
+
+
+.vansketch {
+    position: absolute;
+}
+
+
+/* ABOUT */
+
+.about {
+    padding: 150px 10% 500px 10%;
+    position: relative;
+    margin: 0 0 90px 0;
+    background: #1d1d1d;
+}
+
+
+
+#aboutsection {
+    color: #555;
+}
+
+.expandedu {
+    display: flex;
+    margin-top: 150px;
+    padding-left: 180px;
+    width: 100%;
+    background: #1d1d1d;
+}
+
+.experience {
+    width: 25%;
+}
+
+
+.ablist {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-between;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+
+.expcontent {
+    display: flex;
+    background: #555;
+}
+
+
+.design1 {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.para2 {
+    position: absolute;
+    top: 380px;
+    left: 200px;
+    font-size: 20px;
+
+    color: #fff;
+    margin: 0px 20% 100px 30%;
+    text-align: justify;
+    position: absolute;
+    background: #1d1d1d;
+
+    opacity: 0;
+    display: none;
+
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+
+
+.clickhere {
+    color: #555;
+    font-size: 30px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 460px;
+    left: 120px;
+    background: transparent;
+}
+
+.aboutmobile {
+    display: none;
+}
+
+/* WORKS */
+
+
+.works {
+    padding: 0px 10% 50px 10%;
+    position: relative;
+    margin: 0px 0px 500px 0px;
+}
+
+.flipboxworks {
+    margin-top: 100px;
+}
+
+.flipboxworks {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 25%;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flipbutton a,
+.flipbutton {
+    background-color: #ffffff;
+    color: #1d1d1d;
+    margin-top: 15px;
+    padding: 5px;
+    font-weight: 700;
+}
+
+
+
+.workicons {
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+/* websites */
+
+.websites {
+    width: 100%;
+    height: 300px;
+}
+
+
+
+/* APPLICATIONS */
+
+.applications {
+    padding: 0px 10% 50px 10%;
+    margin: 250px 0px 500px 0px;
+}
+
+.webdev {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wordpress {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.graph {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+figure {
+    padding: 10px;
+    text-align: center;
+    background: transparent;
+}
+
+figure:hover {
+    transform: scale(1.3, 1.3);
+}
+
+img {
+    width: 80px;
+    background: transparent;
+}
+
+figcaption {
+    text-align: center;
+    color: #ffffff;
+    background: transparent;
+}
+
+
+/* CONTACT */
+
+.contactme {
+    width: 100%;
+    padding: 10px 30% 400px 30%;
+}
+
+fieldset {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #08fdd8;
+}
+
+input {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+legend {
+    color: #fff;
+    font-size: 45px;
+}
+
+.submitbutton {
+    color:#1d1d1d
+}
+label {
+    color: #ffffff;
+;
+}
+
+
+
+textarea {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.submit {
+    background-color: #1d1d1d;
+    color: #b9b9b9;
+}
+
+/* OTHER PAGES */
+
+
+
+.otherpagecontent {
+    width: 100%;
+
+    background: transparent;
+}
+
+.h5otherpage {
+    font-size: 100px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background: transparent;
+}
+
+.otherpagep {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    padding: 20px 25% 0PX 25%;
+}
+
+/* posters */
+.posters {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    padding: 0px 5% 500px 5%;
+    background: transparent;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pst>img {
+    width: 250px;
+    padding: 20px;
+}
+
+
+/*  logos */
+
+.slogos {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 30px;
+    padding: 0px 5% 500px 5%;
+    background: transparent;
+    justify-content: center;
+}
+
+.slogo>img {
+    width: 250px;
+    padding: 20px;
+}
+
+
+
+/* drawings */
+.drawings {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 30px;
+    padding: 0px 20% 700px 20%;
+    background: transparent;
+    justify-content: center;
+}
+
+.draws>img {
+    width: 400px;
+    padding: 20px;
+}
+
+/*  FOOTER */
+.footer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 15px 0px 10px 20px;
+    width: 100%;
+    position: relative;
+    right: 10px;
+    bottom: 0px;
+}
+

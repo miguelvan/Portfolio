@@ -1,0 +1,369 @@
+/*  tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /*  HEADER */
+
+    header {
+        padding: 0px 5px 0px 30px;
+        justify-content: flex-start;
+    }
+
+    .divlogo {
+        width: 30%;
+
+    }
+
+    .divnav {
+        width: 70%;
+    }
+
+    .navigation {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+    }
+
+    /* HERO */
+
+    .hero {
+        padding: 20px 20% 350px 5%;
+        background-size: 700px 500px;
+        background-repeat: no-repeat;
+        background-position: 90px 40px;
+    }
+
+    .h2hero {
+        font-size: 27px;
+    }
+
+
+    .para1 {
+        padding: 0px 10% 0px 0px
+    }
+
+    /* ABOUT */
+
+    .about {
+        padding: 20px 20% 100px 5%;
+        margin: 0px;
+    }
+
+    .expandedu {
+        padding: 20px 20% 350px 5%;
+        ;
+    }
+
+    .para2 {
+        margin: 0px 10% 100px 15%;
+    }
+
+    .experience {
+        width: 35%;
+    }
+
+    .clickhere {
+        position: absolute;
+        top: 360px;
+        left: -80px;
+    }
+
+    .certs {
+        text-align: left;
+    }
+
+    /* WORK */
+
+    .works {
+        padding: 20px 20% 200px 5%;
+        margin: 0px;
+    }
+
+    .flipboxworks {
+        margin: 20px 10px 20px 90px;
+    }
+
+    .flip-box {
+        background-color: transparent;
+        width: 50%;
+        height: 250px;
+        perspective: 1000px;
+    }
+
+    /*  applications */
+    .applications {
+        padding: 20px 20% 200px 20%;
+        margin: 0px;
+    }
+
+    #appsection {
+        margin: 0px 0px 0px -120px;
+    }
+
+    /* OTHER PAGES */
+    /* FONTS */
+
+    .h5otherpage {
+        font-size: 60px;
+        width: 0px 20px 0px 20px;
+    }
+
+    .otherpagep {
+        font-size: 17px;
+        color: #fff;
+        text-align: center;
+        padding: 20px 10% 0PX 10%;
+    }
+
+    /*  contact */
+
+    .contactme {
+        width: 100%;
+        padding: 10px 10% 400px 10%;
+    }
+    
+
+    fieldset {
+        margin: 0px 20% 100px 20%;
+    }
+
+/* other pages */
+
+    /* POSTER */
+
+    .pst>img {
+        width: 250px;
+        padding: 20px;
+    }
+
+    /* LOGO */
+
+    .slogo>img {
+        width: 250px;
+        padding: 20px;
+    }
+
+    /* DRAWING */
+
+    .draws>img {
+        width: 300px;
+        padding: 10px;
+    }
+
+}
+
+
+
+
+
+
+/*  mobile */
+@media only screen and (max-width: 767px) {
+
+    /*  HEADER */
+
+    header {
+        padding: 0px 5px 0px 30px;
+        justify-content: flex-start;
+    }
+
+    .divlogo {
+        width: 30%;
+
+    }
+
+    .divnav {
+        width: 70%;
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+
+    }
+
+    .botnav {
+        width: 100%;
+        padding: 10px 20px 10px 20px;
+        border-top: 1px solid #08fdd8;
+
+        display: flex;
+        flex-flow: row wrap;
+
+        justify-content: space-evenly;
+        position: fixed;
+        bottom: 0;
+        z-index: 2;
+    }
+
+    .faicon {
+        background: transparent;
+
+    }
+
+    /* mobile navigation */
+
+
+
+    /* HERO */
+
+    .hero {
+        padding: 0px 20% 350px 5%;
+        background-size: 700px 500px;
+        background-repeat: no-repeat;
+        background-position: 90px 40px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    .h2hero {
+        font-size: 25px;
+    }
+
+
+    .para1 {
+        padding: 0px 10% 0px 0px;
+        font-size: 16px
+    }
+
+    /* ABOUT */
+
+    .about {
+        padding: 20px 5% 100px 5%;
+        margin: 0px;
+    }
+
+    .expandedu {
+        display: none;
+    }
+
+
+    /* about mobile */
+    .aboutmobile {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+    .aboutimg {
+        width: 100%;
+        padding: 0px 10% 0px 10%;
+    }
+
+    .aboutpara {
+        color: #fff;
+        width: auto;
+        text-align: center;
+        margin: 0px 5% 100px 5%;
+    }
+
+
+    /* WORK */
+
+    .works {
+        padding: 10px 5% 200px 5%;
+        margin: 0px;
+    }
+
+
+    .flipboxworks {
+        margin: 20px 10px 20px 20px;
+    }
+
+    .flip-box {
+        background-color: transparent;
+        width: 50%;
+        height: 300px;
+        perspective: 1000px;
+    }
+
+    /*  applications */
+    .applications {
+        padding: 10px 5% 200px 5%;
+        margin: 0px;
+    }
+
+    #appsection {
+        margin: 0px 0px 0px 0px;
+    }
+
+    /* contacts */
+    .contactme {
+        width: 100%;
+        padding: 10px 5% 400px 5%;
+    }
+    
+    fieldset {
+    margin: 0px 5% 30px 5%;
+    padding: 10px;
+
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+
+    /*  FOOTER */
+    .footer {
+        padding-bottom: 200px;
+    }
+
+
+
+
+    /* OTHER PAGES */
+    /* FONTS */
+
+    .h5otherpage {
+        font-size: 60px;
+        width: 0px 20px 0px 20px;
+    }
+
+    .otherpagep {
+        font-size: 17px;
+        color: #fff;
+        text-align: center;
+        padding: 20px 10% 0PX 10%;
+    }
+
+    /* POSTER */
+
+    .posters{
+        padding-bottom: 1500px;
+    }
+
+    .pst>img {
+        width: 250px;
+        padding: 20px;
+    }
+
+    /* LOGO */
+
+    .slogos {
+        padding-bottom: 1100px;
+    }
+
+    .slogo>img {
+        width: 250px;
+        padding: 20px;
+    }
+
+    /* DRAWING */
+
+    .drawings {
+        padding-bottom: 1400px;
+
+    }
+
+    .draws>img {
+        width: 500px;
+        padding: 10px;
+    }
+
+}
+
+
+
